@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^concierto/(.*)(.*).html$ concierto.php?post=$1
+RewriteRule ^disco/(.*)(.*).html$ disco.php?post=$1
+RewriteRule ^libro/(.*)(.*).html$ libro.php?post=$1
+RewriteRule ^evento/(.*)(.*).html$ evento.php?id=$1
+RewriteRule ^artista/(.*).html$ artista.php?artista=$1
+RewriteRule ^miperfil.html$ user.php
